@@ -1,3 +1,9 @@
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
 env:
   jest: true # Jest 글로벌
 plugins:
